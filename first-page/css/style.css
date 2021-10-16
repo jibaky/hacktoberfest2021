@@ -1,0 +1,12 @@
+.teste {
+    background: rgb(170, 170, 195);
+    height: 600px;
+    width: 600px;
+}
+
+.box {
+    background: rgb(90, 90, 212);
+    position: relative;
+    height: 180px;
+    width: 180px;
+}
