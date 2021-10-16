@@ -1,0 +1,46 @@
+body{
+    font-family: sans-serif;
+    background-color: #f6cdc7;
+    display: grid;
+    grid-template-columns: 24% 60% 16%;
+    grid-template-rows: 15% auto 6%;
+    grid-template-areas: 
+    "head head head"
+    "gifs main sidebar"
+    "footer footer footer";
+}
+header{
+    grid-area: head;
+    color: #491f27;
+    background-color: #e88c8f;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+main{
+    grid-area: main;
+    background-color: #d76a7f;
+}
+nav{
+    font-family: "Comic Sans MS";
+    grid-area: sidebar;
+    background: #38191f;
+    color: whitesmoke;
+}
+section{
+    grid-area: gifs;
+    margin: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+img{
+    margin: 5px;
+}
+a{
+    color: coral;
+}
+footer{
+    grid-area: footer;
+    background-color: #b74662;
+}
