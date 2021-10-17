@@ -39,6 +39,8 @@ header{
     border-top-right-radius: 10px;
     grid-area: head;
     background-color: rgb(61, 95, 158);
+    color: rgb(191, 206, 235);
+    font-family: 'Comic Sans MS';
 }
 footer{
     border-bottom-left-radius: 10px;

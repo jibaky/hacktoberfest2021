@@ -1,0 +1,14 @@
+body{
+    background-color: #145DA0;
+}
+button{
+    font-size: x-large;
+    position:absolute;
+    left: 50%;
+    top: 50%;
+    height: auto;
+    color: #0C2D48;
+    background-color: #2E8BC0;
+    border-radius: 15%;
+    border-color: #B1D4E0;
+}

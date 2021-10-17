@@ -12,7 +12,7 @@ window.onload = function() {
             else if (e.key == "ArrowRight") movRight();
             else if (e.key == "ArrowDown") movDown();
 
-            if (parseInt(box.style.left, 10) >= 430 || parseInt(box.style.top, 10) >= 430) {
+            if (parseInt(box.style.left, 10) >= 380 || parseInt(box.style.top, 10) >= 380) {
                 box.style.left = 0;
                 box.style.top = 0;
             }

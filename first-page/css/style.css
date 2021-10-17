@@ -1,12 +1,20 @@
-.teste {
-    background: rgb(170, 170, 195);
-    height: 600px;
-    width: 600px;
+body{
+    background-color: #145DA0;
+    color: #B1D4E0;
+    font-family: 'Comic Sans MS';
+}
+.area {
+    background: #2E8BC0;
+    height: 550px;
+    width: 550px;
 }
 
 .box {
-    background: rgb(90, 90, 212);
+    background: #0C2D48;
     position: relative;
     height: 180px;
     width: 180px;
+}
+a{
+    color: #B1D4E0;
 }
